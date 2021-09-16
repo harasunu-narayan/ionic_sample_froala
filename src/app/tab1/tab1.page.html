@@ -1,0 +1,19 @@
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-title>Froala Editor</ion-card-title>
+      </ion-card-header>
+
+      <div [froalaEditor]="options" style="margin: 10px 15px;">Hello, Froala!</div>
+    </ion-card>
+    <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-title>Froala Editor with custom config</ion-card-title>
+      </ion-card-header>
+      <div [froalaEditor]="froalaOptions" style="margin: 10px 15px;">Hello, Froala!</div>
+      <div style="padding: 10px 15px;">
+        <h3>Preview:</h3>
+        <div id="preview" class="fr-view"></div>
+      </div>
+    </ion-card>
+</ion-content>
